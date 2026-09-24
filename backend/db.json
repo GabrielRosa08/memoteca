@@ -1,14 +1,54 @@
 {
   "pensamentos": [
     {
-      "conteudo": "          Ao infinito e além!",
-      "autoria": "Buzz",
-      "id": "3gedK1AaWSk"
+      "conteudo": "          Se der errado, pelo menos vira história!",
+      "autoria": "Pernalonga",
+      "id": "wiRiQXPyab8"
     },
     {
-      "conteudo": "          Quem não arrisca, não petisca ",
+      "conteudo": "          Vai com medo mesmo!",
+      "autoria": "Coragem, o Cão Covarde",
+      "id": "BZCanmUkz6c"
+    },
+    {
+      "conteudo": "          Quem não arrisca, não petisca.",
       "autoria": "Pica-Pau",
-      "id": "BGHprdV7iHE"
+      "id": "9is4xxWZsC0"
+    },
+    {
+      "conteudo": "          Se não tentar, nunca vai saber!",
+      "autoria": "Bob Esponja",
+      "id": "D7QSXaxxhqw"
+    },
+    {
+      "conteudo": "          Toda confusão começa com uma boa ideia",
+      "autoria": "Mulan",
+      "id": "57NDyjiWalc"
+    },
+    {
+      "conteudo": "          Às vezes, o impossível só precisa de uma tentativa",
+      "autoria": "Kim Possible",
+      "id": "FsE0as_fklg"
+    },
+    {
+      "conteudo": "          Não existe aventura sem um pouquinho de confusão",
+      "autoria": "Patolino",
+      "id": "Ajasn8bbBRU"
+    },
+    {
+      "conteudo": "          Quem espera demais perde a diversão",
+      "autoria": "Pernalonga",
+      "id": "MZl_mz-28VY"
+    },
+    {
+      "conteudo": "          Coragem, que pior do que está… pode ficar!",
+      "autoria": "Pica-Pau",
+      "id": "QkcwUrI6UPY"
+    },
+    {
+      "conteudo": "          Quem não se aventura, não vive histórias para contar.",
+      "autoria": "Finn",
+      "id": "wG30DEcHx1Y"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

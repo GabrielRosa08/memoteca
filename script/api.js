@@ -1,6 +1,8 @@
 const URL_BASE = 'http://localhost:3000'
 
 const api = {
+
+    // USING THE METHOD GET
     async bucarPensamentos() {
         try {
             const response = await axios.get(`${URL_BASE}/pensamentos`)
@@ -12,6 +14,7 @@ const api = {
         }
     },
 
+    //USING THE METHOD POST
     async salvarPensamentos(pensamento) {
         try {
             const response = await axios.post(`${URL_BASE}/pensamentos`, pensamento )
@@ -23,6 +26,7 @@ const api = {
         }
     },
 
+    //USING THE METHOD GET AGAIN
     async buscarPensamentoPorId(id) {
         try {
             const response = await axios.get(`${URL_BASE}/pensamentos/${id}`)
@@ -34,6 +38,7 @@ const api = {
         }
     },
 
+    //USING THE METHOD PUT
     async editarPensamentos(pensamento) {
         try {
             const response = await axios.put(`${URL_BASE}/pensamentos/${pensamento.id}`, pensamento)
@@ -45,6 +50,7 @@ const api = {
         }
     },
 
+    //USING THE METHOD DELETE
     async excluirPensamentos(id) {
         try {
             const response = await axios.delete(`${URL_BASE}/pensamentos/${id}`)

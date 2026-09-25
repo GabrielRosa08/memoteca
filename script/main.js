@@ -1,7 +1,7 @@
 import ui from "./ui.js"
 import api from "./api.js"
 
-//DOMContentLoaded = quando a pagina carregar
+// EXECUTED WHEN THE PAGE LOADS
 document.addEventListener("DOMContentLoaded", () => {
     ui.renderizarPensamentos()
 
@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     botaoCancelar.addEventListener('click', manipularCancelamento)
 })
 
+// VALIDATION FOR ADDING THOUGHTS
 async function manipularSubmissaoFormulario(event) {
     event.preventDefault()
 
@@ -32,6 +33,7 @@ async function manipularSubmissaoFormulario(event) {
     }
 }
 
+// FUNCTION OF THE CANCEL BUTTON
 function manipularCancelamento() {
     ui.limparFormulario();
 }

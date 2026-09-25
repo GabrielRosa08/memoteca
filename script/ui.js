@@ -2,6 +2,7 @@ import api from "./api.js"
 
 const ui = {
 
+    // FILLS OUT THE FORM AUTOMATICALLY.
     async preencherFormulario(pensamentoId) {
         const pensamento = await api.buscarPensamentoPorId(pensamentoId)
         document.getElementById("pensamento-id").value = pensamento.id
@@ -9,10 +10,12 @@ const ui = {
         document.getElementById("pensamento-autoria").value = pensamento.autoria
     },
 
+    //CLEARS THE FORM
     limparFormulario() {
         document.getElementById("pensamento-form").reset();
     },
 
+    //DISPLAYS THOUGHTS ON THE SCREEN
     async renderizarPensamentos() {
         const listaPensamentos = document.getElementById('lista-pensamentos')
         const mensagemVazia = document.getElementById('mensagem-vazia')
@@ -33,6 +36,7 @@ const ui = {
         }
     },
 
+    // ADDS ITEMS AND CREATES HTML ELEMENTS
     async adicionarPensamentos(pensamento) {
         const listaPensamentos = document.getElementById('lista-pensamentos')
         const li = document.createElement('li')
@@ -43,7 +47,7 @@ const ui = {
         iconeAspas.src = 'assets/img/aspas-azuis.png'
         iconeAspas.alt = 'Aspas azuis'
         iconeAspas.classList.add('icone-aspas')
-
+        
         const pensamentoConteudo = document.createElement('div')
         pensamentoConteudo.textContent = pensamento.conteudo
         pensamentoConteudo.classList.add('pensamento-conteudo')
